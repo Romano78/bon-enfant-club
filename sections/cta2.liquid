@@ -1,0 +1,196 @@
+<style>
+  .cta2-section {
+    padding: 4rem 0;
+  }
+
+  @media (min-width: 768px) {
+    .cta2-section {
+      padding: 6rem 0;
+    }
+  }
+
+  .cta2-tagline {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+    opacity: 0.7;
+  }
+
+  .cta2-links {
+    position: relative;
+  }
+
+  .cta2-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s ease;
+    position: relative;
+  }
+
+  @media (min-width: 768px) {
+    .cta2-link {
+      padding: 1.5rem 0;
+    }
+  }
+
+  .cta2-link.dimmed {
+    opacity: 0.5;
+  }
+
+  .cta2-link-number {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-right: 1.5rem;
+    white-space: nowrap;
+    opacity: 0.7;
+  }
+
+  @media (min-width: 768px) {
+    .cta2-link-number {
+      margin-right: 2rem;
+    }
+  }
+
+  .cta2-link-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    .cta2-link-heading {
+      font-size: 2.5rem;
+    }
+  }
+
+  .cta2-image-container {
+    display: none;
+  }
+
+  @media (min-width: 1440px) {
+    .cta2-image-container {
+      pointer-events: none;
+      position: fixed;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      aspect-ratio: 1;
+      width: 600px;
+      height: 600px;
+      max-width: 600px;
+      max-height: 600px;
+      opacity: 0;
+      visibility: hidden;
+      display: block;
+    }
+  }
+  @media (min-width: 1600px) {
+    .cta2-image-container {
+      left: 60%;
+    }
+  }
+
+  .cta2-image-container.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .cta2-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+</style>
+
+<section id="cta2-{{ section.id }}" class="cta2-section" data-section-id="{{ section.id }}">
+  <div class="container">
+    <div class="cta2-wrapper">
+      {% if section.settings.tagline != blank %}
+        <p class="cta2-tagline">{{ section.settings.tagline }}</p>
+      {% endif %}
+
+      <div class="cta2-links" data-cta2-links>
+        {% for block in section.blocks %}
+          <a
+            href="{{ block.settings.url }}"
+            class="cta2-link"
+            data-cta2-link
+            data-index="{{ forloop.index0 }}"
+            {{ block.shopify_attributes }}
+          >
+            <p class="cta2-link-number">{{ block.settings.list_number }}</p>
+            <h3 class="cta2-link-heading">{{ block.settings.heading }}</h3>
+
+            {% if block.settings.image != blank %}
+              <div class="cta2-image-container" data-cta2-image data-index="{{ forloop.index0 }}">
+                <img
+                  class="cta2-image"
+                  src="{{ block.settings.image | image_url: width: block.settings.image.width }}"
+                  alt="{{ block.settings.image.alt | default: block.settings.heading }}"
+                  width="{{ block.settings.image.width }}"
+                  height="{{ block.settings.image.height }}"
+                  loading="lazy"
+                >
+              </div>
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CTA 2 - Hover Links",
+  "tag": "section",
+  "class": "section-cta2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "Explore Our Work"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Row",
+      "type": "row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "list_number",
+          "label": "List number",
+          "default": "01"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Modern Component Library"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "CTA 2 - Hover Links"
+    }
+  ]
+}
+{% endschema %}
