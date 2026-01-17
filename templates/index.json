@@ -134,6 +134,44 @@
         "padding-block-end": 40
       }
     },
+    "cta2_fRXpfc": {
+      "type": "cta2",
+      "blocks": {
+        "row_Ukx3VD": {
+          "type": "row",
+          "settings": {
+            "list_number": "01",
+            "heading": "Modern Component Library",
+            "image": "shopify://shop_images/Gemini_Generated_Image_ey8shsey8shsey8s_7ca08f65-d8a8-4aef-aad8-40956dd822a8.png"
+          }
+        },
+        "row_EJABCx": {
+          "type": "row",
+          "settings": {
+            "list_number": "01",
+            "heading": "Modern Component Library",
+            "image": "shopify://shop_images/Gemini_Generated_Image_ngwbkvngwbkvngwb_1.png"
+          }
+        },
+        "row_fztizD": {
+          "type": "row",
+          "settings": {
+            "list_number": "01",
+            "heading": "Modern Component Library",
+            "image": "shopify://shop_images/Gemini_Generated_Image_ngwbkvngwbkvngwb_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "row_Ukx3VD",
+        "row_EJABCx",
+        "row_fztizD"
+      ],
+      "name": "CTA 2 - Hover Links",
+      "settings": {
+        "tagline": "Explore Our Work"
+      }
+    },
     "featured_blog_posts_r7Kw4i": {
       "type": "featured-blog-posts",
       "blocks": {
@@ -1461,52 +1499,14 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
-    },
-    "cta2_fRXpfc": {
-      "type": "cta2",
-      "blocks": {
-        "row_Ukx3VD": {
-          "type": "row",
-          "settings": {
-            "list_number": "01",
-            "heading": "Modern Component Library",
-            "image": "shopify://shop_images/Gemini_Generated_Image_ey8shsey8shsey8s_7ca08f65-d8a8-4aef-aad8-40956dd822a8.png"
-          }
-        },
-        "row_EJABCx": {
-          "type": "row",
-          "settings": {
-            "list_number": "01",
-            "heading": "Modern Component Library",
-            "image": "shopify://shop_images/Gemini_Generated_Image_ngwbkvngwbkvngwb_1.png"
-          }
-        },
-        "row_fztizD": {
-          "type": "row",
-          "settings": {
-            "list_number": "01",
-            "heading": "Modern Component Library",
-            "image": "shopify://shop_images/Gemini_Generated_Image_ngwbkvngwbkvngwb_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "row_Ukx3VD",
-        "row_EJABCx",
-        "row_fztizD"
-      ],
-      "name": "CTA 2 - Hover Links",
-      "settings": {
-        "tagline": "Explore Our Work"
-      }
     }
   },
   "order": [
     "section_QgP6xL",
+    "cta2_fRXpfc",
     "featured_blog_posts_r7Kw4i",
     "featured_product_information_VNixQi",
     "section_pFWj7e",
-    "section_LtFfeD",
-    "cta2_fRXpfc"
+    "section_LtFfeD"
   ]
 }
