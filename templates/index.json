@@ -22,7 +22,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 32,
+            "gap": 12,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -49,7 +49,7 @@
             "padding-block-start": 40,
             "padding-block-end": 40,
             "padding-inline-start": 40,
-            "padding-inline-end": 40
+            "padding-inline-end": 0
           },
           "blocks": {
             "image_YFmGgR": {
@@ -107,7 +107,7 @@
               "settings": {
                 "text": "<h6>ANTI-SPIKING </h6>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "right",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -144,7 +144,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 32,
+            "gap": 12,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -170,7 +170,7 @@
             "placeholder": "hero-apparel-1",
             "padding-block-start": 40,
             "padding-block-end": 40,
-            "padding-inline-start": 40,
+            "padding-inline-start": 0,
             "padding-inline-end": 40
           },
           "blocks": {
