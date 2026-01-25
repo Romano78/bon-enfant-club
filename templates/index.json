@@ -561,7 +561,7 @@
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "space-between",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 32,
             "width": "fill",
             "custom_width": 100,
@@ -570,8 +570,8 @@
             "height": "fill",
             "custom_height": 100,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-5",
-            "background_media": "image",
+            "color_scheme": "scheme-1",
+            "background_media": "none",
             "video_position": "cover",
             "background_image": "shopify://shop_images/bon_enfant_club_logo_v2.png",
             "background_image_position": "fit",
@@ -592,27 +592,38 @@
             "padding-inline-end": 40
           },
           "blocks": {
-            "spacer_YnbXMj": {
-              "type": "spacer",
+            "image_YFmGgR": {
+              "type": "image",
+              "name": "t:names.image",
               "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "image": "shopify://shop_images/bon_enfant_club_logo_v2.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {}
             },
-            "text_wCGTbN": {
+            "text_JxDkjB": {
               "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "text": "",
+                "text": "<p>ANTI SPIKING</p>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h3",
+                "alignment": "left",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -629,26 +640,11 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_8iipmK": {
-              "type": "button",
-              "settings": {
-                "label": "Shop now",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "spacer_YnbXMj",
-            "text_wCGTbN",
-            "button_8iipmK"
+            "image_YFmGgR",
+            "text_JxDkjB"
           ]
         },
         "group_wexGpg": {
@@ -660,7 +656,7 @@
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "space-between",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 32,
             "width": "fill",
             "custom_width": 100,
@@ -669,7 +665,7 @@
             "height": "fill",
             "custom_height": 100,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-2",
             "background_media": "image",
             "video_position": "cover",
             "background_image": "shopify://shop_images/bon_enfant_club_logo_v2.png",
@@ -691,27 +687,38 @@
             "padding-inline-end": 40
           },
           "blocks": {
-            "spacer_AU7YXN": {
-              "type": "spacer",
+            "image_nqPjac": {
+              "type": "image",
+              "name": "t:names.image",
               "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "image": "shopify://shop_images/bon_enfant_club_logo_white.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {}
             },
-            "text_JVJwYT": {
+            "text_GbUddw": {
               "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "text": "",
+                "text": "<p>cap</p>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h3",
+                "alignment": "left",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -728,26 +735,11 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_YqECTH": {
-              "type": "button",
-              "settings": {
-                "label": "Shop now",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "spacer_AU7YXN",
-            "text_JVJwYT",
-            "button_YqECTH"
+            "image_nqPjac",
+            "text_GbUddw"
           ]
         }
       },
