@@ -619,10 +619,36 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>ANTI SPIKING</p>",
-                "width": "fit-content",
+                "text": "<h2>Seal your drink</h2><h4></h4>",
+                "width": "100%",
                 "max_width": "normal",
-                "alignment": "left",
+                "alignment": "right",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_XaXYYh": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h6>ANTI-SPIKING </h6>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "right",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -644,7 +670,8 @@
           },
           "block_order": [
             "image_YFmGgR",
-            "text_JxDkjB"
+            "text_JxDkjB",
+            "text_XaXYYh"
           ]
         },
         "group_wexGpg": {
@@ -714,8 +741,34 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>cap</p>",
-                "width": "fit-content",
+                "text": "<h2> Secure your night</h2>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_88fBfJ": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h6>DRINK COVER</h6>",
+                "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
@@ -739,7 +792,8 @@
           },
           "block_order": [
             "image_nqPjac",
-            "text_GbUddw"
+            "text_GbUddw",
+            "text_88fBfJ"
           ]
         }
       },
