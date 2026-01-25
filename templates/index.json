@@ -123,7 +123,7 @@
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-end": 12
               },
               "blocks": {}
             }
@@ -218,7 +218,7 @@
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
+                "padding-inline-start": 24,
                 "padding-inline-end": 0
               },
               "blocks": {}
@@ -242,9 +242,9 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 6,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
+                "padding-inline-start": 12,
                 "padding-inline-end": 0
               },
               "blocks": {}
