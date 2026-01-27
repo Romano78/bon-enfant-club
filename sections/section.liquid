@@ -1,5 +1,3 @@
-
-
 {% capture children %}
   {% content_for 'blocks' %}
 {% endcapture %}
@@ -1266,7 +1264,7 @@
               "settings": {
                 "label": "t:text_defaults.shop_now_button_label",
                 "link": "shopify://collections/all",
-                "style_class": "link"
+                "style_class": "split"
               }
             }
           },
@@ -1317,7 +1315,103 @@
           "block_order": ["spacer", "text_1", "button"]
         }
       },
-      "block_order": ["group_1", "group_2"],
+      "blocks": {
+        "loading_animation": {
+          "type": "loading-animation",
+          "settings": {
+            "trigger_on_load": false
+          }
+        },
+        "group_1": {
+          "type": "group",
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 32,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-5",
+            "background_media": "image",
+            "placeholder": "hero-apparel-2",
+            "height": "fill",
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40
+          },
+          "blocks": {
+            "spacer": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "pixel_size": 16
+              }
+            },
+            "text_1": {
+              "type": "text",
+              "settings": {
+                "text": "t:html_defaults.new_arrivals_h3",
+                "type_preset": "h3",
+                "width": "fit-content",
+                "alignment": "center"
+              }
+            },
+            "button": {
+              "type": "button",
+              "settings": {
+                "label": "t:text_defaults.shop_now_button_label",
+                "link": "shopify://collections/all",
+                "style_class": "split"
+              }
+            }
+          },
+          "block_order": ["spacer", "text_1", "button"]
+        },
+        "group_2": {
+          "type": "group",
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 32,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-5",
+            "background_media": "image",
+            "placeholder": "hero-apparel-1",
+            "height": "fill",
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40
+          },
+          "blocks": {
+            "spacer": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "pixel_size": 16
+              }
+            },
+            "text_1": {
+              "type": "text",
+              "settings": {
+                "text": "t:html_defaults.bestseller_h3",
+                "type_preset": "h3",
+                "width": "fit-content",
+                "alignment": "center"
+              }
+            },
+            "button": {
+              "type": "button",
+              "settings": {
+                "label": "t:text_defaults.shop_now_button_label",
+                "link": "shopify://collections/all",
+                "style_class": "link"
+              }
+            }
+          },
+          "block_order": ["spacer", "text_1", "button"]
+        }
+      },
+      "block_order": ["loading_animation", "group_1", "group_2"],
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,

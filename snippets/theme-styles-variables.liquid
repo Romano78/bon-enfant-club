@@ -154,8 +154,19 @@
     --letter-spacing-sm: 0.06em;
     --letter-spacing-md: 0.13em;
 
+
+    /* import font from asset */
+    @font-face {
+      font-family: 'Century Gothic';
+      src: url('{{ 'century-gothic-bold.ttf' | asset_url }}') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+    }
+
+
     /* Font families */
-    --font-body--family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    --font-body--family: 'Century Gothic', {{ settings.type_body_font.fallback_families }};
     --font-body--style: {{ settings.type_body_font.style }};
     --font-body--weight: {{ settings.type_body_font.weight }};
     --font-subheading--family: {{ settings.type_subheading_font.family }}, {{ settings.type_subheading_font.fallback_families }};

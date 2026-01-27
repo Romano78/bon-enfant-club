@@ -1,0 +1,139 @@
+{% comment %}
+  Loading Animation Block
+  Creates a loading overlay that animates from 50% width to 0%
+  Follows Shopify theme conventions
+{% endcomment %}
+
+{%- style -%}
+  .hero-loading {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    pointer-events: none;
+    overflow: hidden;
+    background: transparent;
+  }
+
+  .hero-loading--active {
+    pointer-events: auto;
+  }
+
+  .hero-loading__panel {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transition: transform 1.6s cubic-bezier(0.77, 0, 0.175, 1);
+    will-change: transform;
+  }
+
+  /* Left (Black) */
+  .hero-loading__panel--left {
+    left: 0;
+    background: #000;
+    transform: translateX(0%);
+  }
+
+  /* Right (White) */
+  .hero-loading__panel--right {
+    right: 0;
+    background: #fff;
+    transform: translateX(0%);
+  }
+
+  /* Reveal animation */
+  .hero-loading--active .hero-loading__panel--left {
+    transform: translateX(-100%);
+  }
+
+  .hero-loading--active .hero-loading__panel--right {
+    transform: translateX(100%);
+  }
+
+  /* Optional subtle center line (cinematic touch) */
+  .hero-loading__divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    transform: translateX(-50%);
+    transition: opacity 0.6s ease;
+  }
+
+  .hero-loading--active .hero-loading__divider {
+    opacity: 0;
+  }
+
+  @keyframes panel-reveal {
+    0% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  .hero-loading--active {
+    animation: panel-reveal 2s ease-out forwards;
+  }
+{%- endstyle -%}
+
+<component-loader
+  class="hero-loading loading-animation-block"
+  data-block-id="{{ block.id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="hero-loading__panel hero-loading__panel--left"></div>
+  <div class="hero-loading__panel hero-loading__panel--right"></div>
+  <div class="hero-loading__divider"></div>
+</component-loader>
+
+{% schema %}
+{
+  "name": "t:names.loading_animation",
+  "tag": "div",
+  "class": "loading-animation-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:content.trigger_options"
+    },
+    {
+      "type": "checkbox",
+      "id": "trigger_on_load",
+      "label": "t:settings.trigger_on_page_load",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "delay_ms",
+      "label": "t:settings.delay_before_trigger",
+      "min": 0,
+      "max": 5000,
+      "step": 100,
+      "unit": "ms",
+      "default": 500,
+      "info": "t:info.delay_before_trigger"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_trigger_button",
+      "label": "t:settings.show_trigger_button",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:names.loading_animation",
+      "category": "t:categories.interactive"
+    }
+  ]
+}
+{% endschema %}
