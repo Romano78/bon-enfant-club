@@ -138,8 +138,8 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Shop now",
-            "link": "shopify://collections/all",
+            "label": "shop",
+            "link": "shopify://products/anti-spiking-drink-cover",
             "open_in_new_tab": false,
             "style_class": "split",
             "width": "fit-content",
