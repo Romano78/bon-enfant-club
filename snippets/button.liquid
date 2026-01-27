@@ -18,9 +18,9 @@
     href="{{ link }}"
   {% endif %}
   class="
-    size-style
     {{ block_settings.style_class }}
     {{ block_settings.style_class }}--{{ block.id }}
+    {% if block_settings.style_class == 'split' %}split-style__container{% endif %}
   "
   style="{% render 'size-style', settings: block_settings %}"
   {%- if block_settings.open_in_new_tab -%}
@@ -29,7 +29,13 @@
   {%- endif -%}
   {{ block.shopify_attributes }}
 >
-  {{ block_settings.label }}
+  {% if block.settings.style_class == 'split' %}
+    <div class="split-style">
+      {{ block_settings.label }}
+    </div>
+  {% else %}
+    {{ block_settings.label }}
+  {% endif %}
 </a>
 
 {% stylesheet %}
@@ -41,5 +47,69 @@
       color: var(--color-primary-hover);
       text-decoration-color: transparent;
     }
+  }
+
+  .split-style__container {
+    position: absolute;
+    top: 50%;
+    bottom: unset;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  @media (min-width: 749px) {
+    .split-style__container {
+      top: unset;
+      bottom: 10%;
+    }
+  }
+
+  .split-style {
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: var(--color-primary-button-background);
+    color: var(--color-primary-button-text);
+    border: none;
+  }
+
+  .split-style__container:hover .split-style::before,
+  .split-style__container:hover .split-style::after {
+    width: 100%;
+  }
+
+  .split-style__container:hover .split-style::after {
+    border-right: 2px solid white;
+  }
+
+  /* LEFT WHITE OUTLINE */
+  .split-style::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 4px 0 0 4px;
+    pointer-events: none;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: none;
+    width: 50%;
+    transition: width 0.3s ease;
+  }
+
+  /* Right WHITE OUTLINE */
+  .split-style::after {
+    content: none;
+    position: absolute;
+    inset: 0;
+    border-radius: 4px 0 0 4px;
+    pointer-events: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 2px solid transparent;
+    width: 50%;
+    transform: rotate(180deg);
+    transition: width 0.3s ease;
   }
 {% endstylesheet %}

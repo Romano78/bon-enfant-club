@@ -351,8 +351,10 @@
   {% endfor %}
 
   {% if navigation_bar != blank %}
-    <div class="header__row header__row--mobile desktop:hidden color-{{ section.settings.color_scheme_bottom }}">
-      {{ navigation_bar }}
+    <div>
+      <div class="header__row header__row--mobile desktop:hidden color-{{ section.settings.color_scheme_bottom }}">
+        {{ navigation_bar }}
+      </div>
     </div>
   {% endif %}
 </header-component>
@@ -686,8 +688,8 @@
   }
 
   .header__columns {
-    --padding-block-start: var(--header-padding);
-    --padding-block-end: var(--header-padding);
+    --padding-block-start: 0;
+    --padding-block-end: 0;
   }
 
   .header:not(.header--compact) .header__row--bottom {

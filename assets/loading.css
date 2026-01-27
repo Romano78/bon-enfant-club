@@ -1,0 +1,95 @@
+/* Component Loading Overlay */
+.component-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.component-loading-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Loading Bar - animates from full width to 0 */
+.loading-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    var(--color-primary-button-background, #000) 0%, 
+    var(--color-primary-button-background, #000) 50%, 
+    transparent 50%, 
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  background-position: 0 0;
+  transform-origin: left center;
+}
+
+/* Loading shrink animation - full width to 0 */
+@keyframes loading-shrink {
+  0% {
+    transform: scaleX(1);
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -100% 0;
+  }
+  100% {
+    transform: scaleX(0);
+    background-position: -100% 0;
+  }
+}
+
+/* Alternative: Slide out animation */
+@keyframes loading-slide-out {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Alternative: Fade and shrink */
+@keyframes loading-fade-shrink {
+  0% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scaleX(0.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+
+/* Usage with different animations */
+.component-loading-overlay.slide-out .loading-bar {
+  animation: loading-slide-out 1.5s ease-out forwards;
+}
+
+.component-loading-overlay.fade-shrink .loading-bar {
+  animation: loading-fade-shrink 1.5s ease-out forwards;
+}
+
+/* Custom duration variations */
+.component-loading-overlay.fast .loading-bar {
+  animation-duration: 0.8s;
+}
+
+.component-loading-overlay.slow .loading-bar {
+  animation-duration: 2.5s;
+}
