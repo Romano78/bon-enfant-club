@@ -143,87 +143,10 @@
                 "logo_LChyt9",
                 "text_eaMkdY"
               ]
-            },
-            "group_ajY83M": {
-              "type": "group",
-              "name": "t:names.buttons",
-              "settings": {
-                "content_direction": "row",
-                "vertical_on_mobile": false,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "button_i6giwz": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "View all",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "button-secondary",
-                    "width": "fit-content",
-                    "custom_width": 34,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 34
-                  },
-                  "blocks": {}
-                },
-                "button_NiPtHB": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "Shop now",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "button-secondary",
-                    "width": "fit-content",
-                    "custom_width": 34,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 34
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_i6giwz",
-                "button_NiPtHB"
-              ]
             }
           },
           "block_order": [
-            "group_NmTiMi",
-            "group_ajY83M"
+            "group_NmTiMi"
           ]
         },
         "comparison_slider_69ihhj": {
@@ -242,7 +165,7 @@
             "text_corner_radius": 0,
             "image_ratio": "landscape",
             "width": "custom",
-            "custom_width": 65,
+            "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
@@ -258,11 +181,27 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "button_P8pnFA": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "group_RxxQrC",
-        "comparison_slider_69ihhj"
+        "comparison_slider_69ihhj",
+        "button_P8pnFA"
       ],
       "name": "t:names.image_compare",
       "settings": {
@@ -289,8 +228,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "section_4Faejc": {
