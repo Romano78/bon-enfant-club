@@ -153,6 +153,8 @@
           "type": "comparison-slider",
           "name": "t:names.comparison_slider",
           "settings": {
+            "before_image": "shopify://shop_images/pdp_white_bg_61a4c936-65f6-40fb-aee1-cc96095a802d.png",
+            "after_image": "shopify://shop_images/Firefly_Gemini_Flash_I_would_like_the_box_to_be_in_black-____252831.png",
             "slider_style": "horizontal",
             "show_text": false,
             "before_text": "",
