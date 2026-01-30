@@ -568,7 +568,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h1>STEP #1</h1>",
+                "text": "<h1><strong>STEP #1</strong></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -594,9 +594,9 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/pdp_white_bg.png",
+                "image": "shopify://shop_images/pdp_both_box.png",
                 "link": "",
-                "image_ratio": "square",
+                "image_ratio": "portrait",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -619,7 +619,7 @@
             "image_hzgBNP"
           ]
         },
-        "group_AHgK6n": {
+        "group_HHnhqG": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -658,9 +658,63 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "text_hTyYzm": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h1><strong>STEP #2</strong></h1>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "image_BY4QKq": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/step2_v1.jpg",
+                "link": "",
+                "image_ratio": "portrait",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_hTyYzm",
+            "image_BY4QKq"
+          ]
         },
-        "group_GTDEhQ": {
+        "group_qrzzWW": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -699,13 +753,67 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "text_44yUDt": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h1><strong>STEP #3</strong></h1>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "image_7GdGWM": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/step3_v2.jpg",
+                "link": "",
+                "image_ratio": "portrait",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_44yUDt",
+            "image_7GdGWM"
+          ]
         }
       },
       "block_order": [
         "group_CgLi7F",
-        "group_AHgK6n",
-        "group_GTDEhQ"
+        "group_HHnhqG",
+        "group_qrzzWW"
       ],
       "name": "t:names.custom_section",
       "settings": {
