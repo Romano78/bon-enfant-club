@@ -473,6 +473,7 @@
     "divider_width": "Largeur du séparateur",
     "headings": "Titres",
     "hide_logo_on_home_page": "Masquer le logo sur la page d'accueil",
+    "hide_logo_on_about_page": "Masquer le logo sur la page à propos",
     "horizontal_padding": "Espacement horizontal",
     "inverse": "Inversée",
     "inverse_logo": "Logo inversé",
@@ -1084,6 +1085,7 @@
     "applies_on_image_only": "S’applique uniquement aux images",
     "hover_effects": "S’applique aux cartes de produit et de collection",
     "hide_logo_on_home_page_help": "Le logo restera visible lorsque l’en-tête fixe est actif",
+    "hide_logo_on_about_page_help": "Le logo restera visible lorsque l’en-tête fixe est actif",
     "media_type_info": "Les fonctionnalités sont remplies à partir des liens de votre menu",
     "logo_height": "Affecte uniquement le logo de l’en-tête"
   },
