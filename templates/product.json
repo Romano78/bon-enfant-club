@@ -542,7 +542,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Find your perfect fit</h2>",
+                    "text": "<h2>STEP #1</h2><h3>Find your perfect fit</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -803,7 +803,7 @@
           "settings": {
             "image": "shopify://shop_images/step3_v2.jpg",
             "link": "",
-            "image_ratio": "square",
+            "image_ratio": "portrait",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
