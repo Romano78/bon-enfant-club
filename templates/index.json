@@ -833,7 +833,7 @@
         "video_position": "cover",
         "background_image_position": "cover",
         "border": "none",
-        "border_width": 1,
+        "border_width": 2,
         "border_opacity": 100,
         "border_radius": 0,
         "toggle_overlay": false,
@@ -842,6 +842,20 @@
         "gradient_direction": "to top",
         "padding-block-start": 0,
         "padding-block-end": 0
+      }
+    },
+    "divider_xjWMjt": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 0.5,
+        "corner_radius": "square",
+        "width_percent": 12,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
       }
     },
     "featured_product_information_zq4Mmi": {
@@ -1164,6 +1178,7 @@
     "section_4Faejc",
     "section_XPiBVc",
     "section_wU4jBU",
+    "divider_xjWMjt",
     "featured_product_information_zq4Mmi",
     "section_Fq36ik"
   ]
