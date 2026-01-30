@@ -50,6 +50,8 @@
           "static": true,
           "settings": {
             "hide_logo_on_home_page": true,
+            "hide_logo_on_about_page": true,
+            "hide_logo_on_contact_page": true,
             "padding-block-start": 6,
             "padding-block-end": 6,
             "padding-inline-start": 0,
