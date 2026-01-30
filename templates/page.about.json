@@ -51,10 +51,10 @@
         "padding-block-end": 80
       }
     },
-    "section_xqzNeD": {
+    "section_ffKNTp": {
       "type": "section",
       "blocks": {
-        "text_NqcwKy": {
+        "text_eYr48m": {
           "type": "text",
           "settings": {
             "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
@@ -78,12 +78,31 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "logo_3fHG4k": {
+          "type": "logo",
+          "settings": {
+            "inverse": false,
+            "font": "heading",
+            "unit": "percent",
+            "percent_width": 100,
+            "pixel_height": 48,
+            "custom_mobile_size": false,
+            "unit_mobile": "percent",
+            "percent_width_mobile": 100,
+            "pixel_height_mobile": 120,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "text_NqcwKy"
+        "text_eYr48m",
+        "logo_3fHG4k"
       ],
-      "disabled": true,
       "name": "t:names.large_logo",
       "settings": {
         "content_direction": "column",
@@ -116,6 +135,6 @@
   },
   "order": [
     "main",
-    "section_xqzNeD"
+    "section_ffKNTp"
   ]
 }
