@@ -30,8 +30,13 @@
     data-hidden-on-home-page
   {% endif %}
   {% if template.name == 'page' and block_settings.hide_logo_on_about_page %}
-    {% if page.handle == 'about' or template.suffix == 'about' %}
+    {% if page.handle == 'about' or template.suffix == 'about' or template.name == 'about' %}
       data-hidden-on-about-page
+    {% endif %}
+  {% endif %}
+  {% if template.name == 'page' and block_settings.hide_logo_on_contact_page %}
+    {% if page.handle == 'contact' or template.suffix == 'contact' or template.name == 'contact' %}
+      data-hidden-on-contact-page
     {% endif %}
   {% endif %}
   href="{{ routes.root_url }}"
@@ -123,6 +128,18 @@
       }
     }
 
+    &[data-hidden-on-contact-page] {
+      display: none;
+
+      #header-component:is(
+          [sticky='always']:not([data-scroll-direction='none']),
+          [sticky='scroll-up'][data-scroll-direction='up']
+        )
+        & {
+        display: flex;
+      }
+    }
+
     @media screen and (max-width: 749px) {
       padding: 0;
     }
@@ -181,6 +198,12 @@
       "id": "hide_logo_on_about_page",
       "label": "t:settings.hide_logo_on_about_page",
       "info": "t:info.hide_logo_on_about_page_help"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_logo_on_contact_page",
+      "label": "t:settings.hide_logo_on_contact_page",
+      "info": "t:info.hide_logo_on_contact_page_help"
     },
     {
       "type": "header",

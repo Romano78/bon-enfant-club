@@ -225,6 +225,7 @@
     "grid_layout_on_mobile": "Grid layout is used for mobile",
     "hide_logo_on_home_page_help": "Logo will remain visible when sticky header is active",
     "hide_logo_on_about_page_help": "Logo will remain visible when sticky header is active",
+    "hide_logo_on_contact_page_help": "Logo will remain visible when sticky header is active",
     "hover_effects": "Applies to product and collection cards",
     "logo_font": "Applies only when a logo is not selected",
     "logo_height": "Only affects header logo",
@@ -898,6 +899,7 @@
     "height": "Height",
     "hide_logo_on_home_page": "Hide logo on home page",
     "hide_logo_on_about_page": "Hide logo on about page",
+    "hide_logo_on_contact_page": "Hide logo on contact page",
     // Checkbox to hide padding control settings
     "hide_padding": "Hide padding",
     "hide_unselected_variant_media": "Hide unselected variant media",
