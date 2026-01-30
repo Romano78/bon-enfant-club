@@ -568,7 +568,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h1><strong>STEP #1</strong></h1>",
+                "text": "<h4><strong>step #1</strong></h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -583,7 +583,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 8,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -663,7 +663,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h1><strong>STEP #2</strong></h1>",
+                "text": "<h4><strong>step #1</strong></h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -758,7 +758,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h1><strong>STEP #3</strong></h1>",
+                "text": "<h4><strong>step #1</strong></h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -842,20 +842,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 0,
         "padding-block-end": 0
-      }
-    },
-    "divider_xjWMjt": {
-      "type": "divider",
-      "name": "t:names.divider_section",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "page-width",
-        "thickness": 0.5,
-        "corner_radius": "square",
-        "width_percent": 12,
-        "alignment_horizontal": "center",
-        "padding-block-start": 16,
-        "padding-block-end": 16
       }
     },
     "featured_product_information_zq4Mmi": {
@@ -1178,7 +1164,6 @@
     "section_4Faejc",
     "section_XPiBVc",
     "section_wU4jBU",
-    "divider_xjWMjt",
     "featured_product_information_zq4Mmi",
     "section_Fq36ik"
   ]
