@@ -596,7 +596,7 @@
               "settings": {
                 "image": "shopify://shop_images/pdp_both_box.png",
                 "link": "",
-                "image_ratio": "portrait",
+                "image_ratio": "landscape",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -691,7 +691,7 @@
               "settings": {
                 "image": "shopify://shop_images/step2_v1.jpg",
                 "link": "",
-                "image_ratio": "portrait",
+                "image_ratio": "landscape",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -786,7 +786,7 @@
               "settings": {
                 "image": "shopify://shop_images/step3_v2.jpg",
                 "link": "",
-                "image_ratio": "portrait",
+                "image_ratio": "landscape",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
