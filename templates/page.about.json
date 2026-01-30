@@ -9,6 +9,48 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "logo_g3Rgp6": {
+          "type": "logo",
+          "name": "t:names.logo",
+          "disabled": true,
+          "settings": {
+            "inverse": false,
+            "font": "heading",
+            "unit": "percent",
+            "percent_width": 100,
+            "pixel_height": 264,
+            "custom_mobile_size": false,
+            "unit_mobile": "percent",
+            "percent_width_mobile": 100,
+            "pixel_height_mobile": 120,
+            "padding-block-start": 60,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "logo_g3Rgp6",
+        "page-content"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
     "section_atWUAC": {
       "type": "section",
       "blocks": {
@@ -89,52 +131,10 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
-    },
-    "main": {
-      "type": "main-page",
-      "blocks": {
-        "logo_g3Rgp6": {
-          "type": "logo",
-          "name": "t:names.logo",
-          "disabled": true,
-          "settings": {
-            "inverse": false,
-            "font": "heading",
-            "unit": "percent",
-            "percent_width": 100,
-            "pixel_height": 264,
-            "custom_mobile_size": false,
-            "unit_mobile": "percent",
-            "percent_width_mobile": 100,
-            "pixel_height_mobile": 120,
-            "padding-block-start": 60,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "page-content": {
-          "type": "page-content",
-          "settings": {},
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "logo_g3Rgp6",
-        "page-content"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "gap": 32,
-        "color_scheme": "",
-        "padding-block-start": 40,
-        "padding-block-end": 80
-      }
     }
   },
   "order": [
-    "section_atWUAC",
-    "main"
+    "main",
+    "section_atWUAC"
   ]
 }
