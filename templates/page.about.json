@@ -15,6 +15,7 @@
         "logo_g3Rgp6": {
           "type": "logo",
           "name": "t:names.logo",
+          "disabled": true,
           "settings": {
             "inverse": false,
             "font": "heading",
