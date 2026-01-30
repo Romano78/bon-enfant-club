@@ -397,7 +397,7 @@
                     "text_thhxdp": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Shipping fees apply and returns are not accepted. Shipping costs vary depending on your location.”</p><p>We ship worldwide from Montreal. Delivery times vary:</p><ul><li>Canada: 5–7 business days</li><li>USA: 7–10 business days</li><li>Europe: 10–15 business days</li><li>Other international destinations: 15–20 business days</li></ul>",
+                        "text": "<p><strong>Returns& Refunds:</strong></p><p>No returnsor refundswillbeaccepted. Due to the nature of thisproduct(anti-drug), wecannottakeitback for safetyreasons.</p><p><strong>Worldwide Shipping:</strong>ShipsfromMontreal, Quebec(Canada).</p><p>Shipping Costsare calculatedbasedon the destination country.</p><p><strong>EstimatedDelivery Times :</strong></p><ol><li>Canada: 5-7 business days</li><li>USA : 7-10 business days</li><li>Europe : 10-15 business days</li><li>Otherinternational destinations: 15–20 business days</li></ol><p><br/></p><p><em>Note: Delivery times are indicative and mayvarydependingon carriers and customs.</em></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
