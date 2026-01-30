@@ -9,13 +9,13 @@
  */
 {
   "sections": {
-    "section_ffKNTp": {
+    "section_atWUAC": {
       "type": "section",
       "blocks": {
-        "text_eYr48m": {
+        "text_QcNkmM": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>Designed and made in Canada, to help you stay in control of your night.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -37,7 +37,7 @@
           },
           "blocks": {}
         },
-        "logo_3fHG4k": {
+        "logo_pnCFet": {
           "type": "logo",
           "settings": {
             "inverse": false,
@@ -58,12 +58,12 @@
         }
       },
       "block_order": [
-        "text_eYr48m",
-        "logo_3fHG4k"
+        "text_QcNkmM",
+        "logo_pnCFet"
       ],
       "name": "t:names.large_logo",
       "settings": {
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
@@ -72,7 +72,7 @@
         "vertical_alignment_flex_direction_column": "space-between",
         "gap": 16,
         "section_width": "page-width",
-        "section_height": "",
+        "section_height": "medium",
         "section_height_custom": 50,
         "color_scheme": "scheme-3",
         "background_media": "none",
@@ -87,7 +87,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 0
+        "padding-block-end": 40
       }
     },
     "main": {
@@ -134,7 +134,7 @@
     }
   },
   "order": [
-    "section_ffKNTp",
+    "section_atWUAC",
     "main"
   ]
 }
