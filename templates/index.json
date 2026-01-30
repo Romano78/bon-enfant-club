@@ -568,7 +568,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h4><strong>step #1</strong></h4>",
+                "text": "<h4> #1</h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -663,7 +663,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h4><strong>step #1</strong></h4>",
+                "text": "<h4> #2</h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -758,7 +758,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h4><strong>step #1</strong></h4>",
+                "text": "<h4> #3</h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -773,7 +773,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 4,
+                "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
