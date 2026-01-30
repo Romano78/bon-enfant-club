@@ -720,6 +720,7 @@
         "group_UiUq9x",
         "comparison_slider_EEkYVH"
       ],
+      "disabled": true,
       "name": "t:names.image_compare",
       "settings": {
         "content_direction": "column",
@@ -827,6 +828,7 @@
         "image_j4PEEy",
         "image_LagHU6"
       ],
+      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
