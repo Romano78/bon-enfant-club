@@ -564,11 +564,11 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_byzciq": {
+            "text_eiU3Cy": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>STEP #1</h2>",
+                "text": "<h2>New arrivals</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -583,7 +583,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 16,
+                "padding-block-start": 12,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -615,7 +615,7 @@
             }
           },
           "block_order": [
-            "text_byzciq",
+            "text_eiU3Cy",
             "image_hzgBNP"
           ]
         },
@@ -638,7 +638,7 @@
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-1",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -659,7 +659,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_VJiHrW": {
+            "text_JkBaH3": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -678,7 +678,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 16,
+                "padding-block-start": 12,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -710,7 +710,7 @@
             }
           },
           "block_order": [
-            "text_VJiHrW",
+            "text_JkBaH3",
             "image_BY4QKq"
           ]
         },
@@ -733,7 +733,7 @@
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-1",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -754,7 +754,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_Gp3hrG": {
+            "text_8c6pqn": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -773,7 +773,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 16,
+                "padding-block-start": 12,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -805,7 +805,7 @@
             }
           },
           "block_order": [
-            "text_Gp3hrG",
+            "text_8c6pqn",
             "image_7GdGWM"
           ]
         }
