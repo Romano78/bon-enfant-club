@@ -1001,19 +1001,6 @@
                 "price_Bp74fY"
               ]
             },
-            "review_p4DdUi": {
-              "type": "review",
-              "name": "t:names.product_review_stars",
-              "settings": {
-                "stars_style": "shaded",
-                "show_number": true,
-                "rating_color": "primary",
-                "type_preset": "paragraph",
-                "width": "100%",
-                "alignment": "left"
-              },
-              "blocks": {}
-            },
             "variant_picker_QHFkkG": {
               "type": "variant-picker",
               "name": "t:names.product_variant_picker",
@@ -1063,13 +1050,197 @@
                 }
               },
               "block_order": []
+            },
+            "accordion_mLkD8t": {
+              "type": "accordion",
+              "name": "t:names.accordion",
+              "settings": {
+                "icon": "caret",
+                "dividers": true,
+                "type_preset": "h6",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_3qMbG8": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Features",
+                    "open_by_default": true,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_yMUGpE": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li><strong>Anti-drug protective</strong> drink cover</li><li><strong>Waterproof,</strong> durable, high-quality fabric </li><li><strong>Reusable </strong>and <strong>washable</strong></li><li>Rigid case designed to attach to <strong>a keychain</strong></li></ul>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_yMUGpE"
+                  ]
+                },
+                "accordion_row_WywLjr": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Materials",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_a7C6Fh": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<ul><li><strong>Waterproof material commonly used in the textile industry for rain jackets and backpacks (70D Ripstop Nylon).</strong></li><li><strong>Case:</strong> 3D-printed in Montreal, Quebec (Canada).<strong> </strong></li></ul>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_a7C6Fh"
+                  ]
+                },
+                "accordion_row_7A8YXn": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Dimensions",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_TVxDzG": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>Cap:</strong> 9 × 2 cm<br/><strong>Straw hole:</strong> 1 cm<br/><strong>Case:</strong> 6.7 × 3 × 1.3 cm</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_TVxDzG"
+                  ]
+                },
+                "accordion_row_HWb3wU": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Shipping & Returns",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_A3Hadj": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>Returns & Refunds</strong><br/><br/>No returns or refunds will be accepted. Due to the nature of this product (harm-reduction), we cannot accept returns for safety reasons.</p><p><strong>Worldwide Shipping</strong><br/><br/>Ships from Montreal, Quebec (Canada).<br/><br/>Shipping costs are calculated at checkout based on the destination country.</p><p><strong>Estimated Delivery Times</strong></p><ul><li><strong>Canada:</strong> 5–7 business days<br/></li><li><strong>USA:</strong> 7–10 business days<br/></li><li><br/><strong>Europe:</strong> 10–15 business days<br/></li><li><br/><strong>Other international destinations:</strong> 15–20 business days<br/></li></ul><p><em>Note: Delivery times are estimates and may vary depending on carriers and customs processing.</em></p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_A3Hadj"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_3qMbG8",
+                "accordion_row_WywLjr",
+                "accordion_row_7A8YXn",
+                "accordion_row_HWb3wU"
+              ]
             }
           },
           "block_order": [
             "group_ap8PL7",
-            "review_p4DdUi",
             "variant_picker_QHFkkG",
-            "buy_buttons_RMXdRL"
+            "buy_buttons_RMXdRL",
+            "accordion_mLkD8t"
           ]
         }
       },
