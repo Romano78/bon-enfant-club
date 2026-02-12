@@ -598,7 +598,7 @@
               "settings": {
                 "image": "shopify://shop_images/en_pdp_step_1.jpg",
                 "second_image": "shopify://shop_images/fr_pdp_step_1.jpg",
-                "enable_animation": false,
+                "enable_animation": true,
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
@@ -695,7 +695,7 @@
               "settings": {
                 "image": "shopify://shop_images/en_pdp_step_2.jpg",
                 "second_image": "shopify://shop_images/fr_pdp_step_2.jpg",
-                "enable_animation": false,
+                "enable_animation": true,
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
