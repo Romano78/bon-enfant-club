@@ -794,7 +794,7 @@
                 "second_image": "shopify://shop_images/fr_pdp_step_3.jpg",
                 "enable_animation": true,
                 "link": "",
-                "image_ratio": "square",
+                "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
