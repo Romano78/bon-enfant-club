@@ -112,11 +112,14 @@
   @media (min-width: 750px) {
     .image-block.w-animation {
       overflow: hidden;
+    }
+
+    .image-block.w-animation img {
       transform: scale(1);
       transition: transform 0.3s linear;
     }
 
-    .image-block.w-animation:hover {
+    .image-block.w-animation:hover img {
       overflow: hidden;
       transform: scale(1.1);
     }
