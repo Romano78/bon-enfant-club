@@ -543,7 +543,7 @@
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-1",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -564,32 +564,6 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_aR76WX": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<h4> #1</h4>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 8,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "image_hzgBNP": {
               "type": "image",
               "name": "t:names.image",
@@ -615,7 +589,6 @@
             }
           },
           "block_order": [
-            "text_aR76WX",
             "image_hzgBNP"
           ]
         },
@@ -659,32 +632,6 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_hTyYzm": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<h4> #2</h4>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "image_BY4QKq": {
               "type": "image",
               "name": "t:names.image",
@@ -710,7 +657,6 @@
             }
           },
           "block_order": [
-            "text_hTyYzm",
             "image_BY4QKq"
           ]
         },
@@ -754,32 +700,6 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_44yUDt": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<h4> #3</h4>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "image_7GdGWM": {
               "type": "image",
               "name": "t:names.image",
@@ -805,7 +725,6 @@
             }
           },
           "block_order": [
-            "text_44yUDt",
             "image_7GdGWM"
           ]
         }
