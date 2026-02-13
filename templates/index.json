@@ -395,7 +395,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Find your perfect fit</h2>",
+                    "text": "<h2>Black or White ?</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -421,7 +421,7 @@
                   "type": "text",
                   "name": "t:names.subheading",
                   "settings": {
-                    "text": "<p>Discover the best of both worlds</p>",
+                    "text": "<p>one product. two options.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1082,7 +1082,7 @@
                     "text_yMUGpE": {
                       "type": "text",
                       "settings": {
-                        "text": "<ul><li><strong>Anti-drug protective</strong> drink cover</li><li><strong>Waterproof,</strong> durable, high-quality fabric </li><li><strong>Reusable </strong>and <strong>washable</strong></li><li>Rigid case designed to attach to <strong>a keychain</strong></li></ul>",
+                        "text": "<ul><li><strong>Anti-drug protective</strong> drink cover*</li><li><strong>Waterproof,</strong> durable, high-quality fabric </li><li><strong>Reusable </strong>and <strong>washable</strong></li><li>Rigid case designed to attach to <strong>a keychain</strong></li><li>Design in <strong>Montreal,</strong> Canada</li></ul><p><em>*This is a preventive product and does not provide complete protection.<br/>Always stay alert and never leave your drink unattended.</em></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1121,7 +1121,7 @@
                     "text_a7C6Fh": {
                       "type": "text",
                       "settings": {
-                        "text": "<ul><li><strong>Waterproof material commonly used in the textile industry for rain jackets and backpacks (70D Ripstop Nylon).</strong></li><li><strong>Case:</strong> 3D-printed in Montreal, Quebec (Canada).<strong> </strong></li></ul>",
+                        "text": "<ul><li><strong>Cap : </strong>Made from durable 70D ripstop nylon — a waterproof material used in high-quality rain jackets and backpacks</li><li><strong>Case :</strong> 3D-printed </li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1161,7 +1161,7 @@
                     "text_TVxDzG": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Cap:</strong> 9 × 2 cm<br/><strong>Straw hole:</strong> 1 cm<br/><strong>Case:</strong> 6.7 × 3 × 1.3 cm</p>",
+                        "text": "<p><strong>Cap :</strong> 9 × 2 cm<br/><strong>Straw hole :</strong> 1 cm<br/><strong>Case :</strong> 6.7 × 3 × 1.3 cm</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1200,7 +1200,7 @@
                     "text_A3Hadj": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Returns & Refunds</strong><br/><br/>No returns or refunds will be accepted. Due to the nature of this product (harm-reduction), we cannot accept returns for safety reasons.</p><p><strong>Worldwide Shipping</strong><br/><br/>Ships from Montreal, Quebec (Canada).<br/><br/>Shipping costs are calculated at checkout based on the destination country.</p><p><strong>Estimated Delivery Times</strong></p><ul><li><strong>Canada:</strong> 5–7 business days<br/></li><li><strong>USA:</strong> 7–10 business days<br/></li><li><br/><strong>Europe:</strong> 10–15 business days<br/></li><li><br/><strong>Other international destinations:</strong> 15–20 business days<br/></li></ul><p><em>Note: Delivery times are estimates and may vary depending on carriers and customs processing.</em></p>",
+                        "text": "<p><strong>Returns & Refunds :</strong><br/>For safety reasons, we do not accept returns or refunds once the product has been opened, as this is a personal safety item.</p><p><strong>Worldwide Shipping :</strong><br/>Ships from Montreal, Quebec (Canada).<br/>Shipping costs are calculated at checkout based on the destination country.</p><p><strong>Estimated Delivery Times :</strong></p><ul><li><strong>Canada:</strong> 5–7 business days</li><li><strong>USA:</strong> 7–10 business days</li><li><strong>Europe:</strong> 10–15 business days</li><li><strong>Other international destinations:</strong> 15–20 business days<br/></li></ul><p><em>Note : Delivery times are estimates and may vary depending on carriers and customs processing.</em></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
