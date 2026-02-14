@@ -395,7 +395,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Black or White ?</h2>",
+                    "text": "<h4>CHOOSE YOUR ANTI-SPIKING DRINK COVER</h4>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -421,7 +421,7 @@
                   "type": "text",
                   "name": "t:names.subheading",
                   "settings": {
-                    "text": "<p>one product. two options.</p>",
+                    "text": "<p>black or white ?</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1082,7 +1082,7 @@
                     "text_yMUGpE": {
                       "type": "text",
                       "settings": {
-                        "text": "<ul><li><strong>Anti-drug protective</strong> drink cover*</li><li><strong>Waterproof,</strong> durable, high-quality fabric </li><li><strong>Reusable </strong>and <strong>washable</strong></li><li>Rigid case designed to attach to <strong>a keychain</strong></li><li>Design in <strong>Montreal,</strong> Canada</li></ul><p><em>*This is a preventive product and does not provide complete protection.<br/>Always stay alert and never leave your drink unattended.</em></p>",
+                        "text": "<ul><li><strong>Anti-drug protective</strong> drink cover*</li><li><strong>Liquid-resistant,</strong> high-quality fabric </li><li><strong>Reusable, washable, </strong>durable</li><li><strong>Keychain loop</strong></li><li>Design in <strong>Montreal,</strong> Canada</li></ul><p><em>*This is a preventive product and does not provide complete protection.<br/>Always stay alert and never leave your drink unattended.</em></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
