@@ -8,11 +8,7 @@
     assign animation = 'w-animation'
   endif
 
-  assign lang = request.locale.iso_code | default: 'en'
   assign chosen_image = block_settings.image
-  if lang == 'fr' and block_settings.second_image != blank
-    assign chosen_image = block_settings.second_image
-  endif
 
   case block_settings.image_ratio
     when 'landscape'
@@ -143,11 +139,6 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:settings.image"
-    },
-    {
-      "type": "image_picker",
-      "id": "second_image",
       "label": "t:settings.image"
     },
     {
