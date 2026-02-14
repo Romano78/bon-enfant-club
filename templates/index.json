@@ -570,7 +570,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>#1</h2>",
+                "text": "",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -596,7 +596,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/en_pdp_step_1.jpg",
+                "image": "shopify://shop_images/Capture_d_ecran_2026-02-13_a_20.15.02.png",
                 "second_image": "shopify://shop_images/fr_pdp_step_1.jpg",
                 "enable_animation": true,
                 "link": "",
@@ -667,7 +667,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>#2</h2>",
+                "text": "",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -693,7 +693,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/en_pdp_step_2.jpg",
+                "image": "shopify://shop_images/Capture_d_ecran_2026-02-13_a_20.15.09.png",
                 "second_image": "shopify://shop_images/fr_pdp_step_2.jpg",
                 "enable_animation": true,
                 "link": "",
@@ -764,7 +764,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>#3</h2>",
+                "text": "<h2></h2><h2></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -790,7 +790,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/en_pdp_step_3..jpg",
+                "image": "shopify://shop_images/Capture_d_ecran_2026-02-13_a_20.17.04.png",
                 "second_image": "shopify://shop_images/fr_pdp_step_3..jpg",
                 "enable_animation": true,
                 "link": "",
