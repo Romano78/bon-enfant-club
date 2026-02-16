@@ -80,7 +80,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2>Seal your drink</h2><h4></h4>",
+                "text": "<h2>seal your drink</h2><h4></h4>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -203,7 +203,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2> Secure your night</h2>",
+                "text": "<h2> secure your night</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
