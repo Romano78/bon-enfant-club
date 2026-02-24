@@ -459,7 +459,7 @@
           "name": "t:names.comparison_slider",
           "settings": {
             "before_image": "shopify://shop_images/OPTION_1_-_VERSION_ENG.jpg",
-            "after_image": "shopify://shop_images/OPTION_1_VERSION_FR_BLANC.jpg",
+            "after_image": "shopify://shop_images/Animation_boite_noire_ENG.jpg",
             "slider_style": "horizontal",
             "show_text": false,
             "before_text": "",
