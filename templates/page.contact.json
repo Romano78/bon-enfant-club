@@ -135,7 +135,7 @@
               "type": "contact-form-submit-button",
               "static": true,
               "settings": {
-                "label": "Submit",
+                "label": "Envoyer",
                 "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
@@ -186,7 +186,7 @@
         "text_g3kP87": {
           "type": "text",
           "settings": {
-            "text": "<p>seal your drink. secure your night. </p>",
+            "text": "<p>protège ton verre. profite de ta soirée.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
