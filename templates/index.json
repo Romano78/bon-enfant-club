@@ -80,7 +80,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2>seal your drink</h2><h4></h4>",
+                "text": "<h2>protège ton verre</h2><h4></h4>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -203,7 +203,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2> secure your night</h2>",
+                "text": "<h2>profite de ta soirée</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -395,7 +395,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h4>CHOOSE YOUR ANTI-SPIKING DRINK COVER</h4>",
+                    "text": "<h3>CHOISIS TON CAPUCHON DE PROTECTION ANTI-DROGUE</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -421,7 +421,7 @@
                   "type": "text",
                   "name": "t:names.subheading",
                   "settings": {
-                    "text": "<p>black or white ?</p>",
+                    "text": "<p>noir ou blanc ?</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -437,7 +437,7 @@
                     "background_color": "#00000026",
                     "corner_radius": 0,
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 32,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -458,8 +458,6 @@
           "type": "comparison-slider",
           "name": "t:names.comparison_slider",
           "settings": {
-            "before_image": "shopify://shop_images/OPTION_1_-_VERSION_ENG.jpg",
-            "after_image": "shopify://shop_images/Animation_boite_noire_ENG.jpg",
             "slider_style": "horizontal",
             "show_text": false,
             "before_text": "",
@@ -570,7 +568,6 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/Capture_d_ecran_2026-02-13_a_20.15.02.png",
                 "enable_animation": false,
                 "link": "",
                 "image_ratio": "adapt",
@@ -639,7 +636,6 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/Capture_d_ecran_2026-02-13_a_20.15.09.png",
                 "enable_animation": false,
                 "link": "",
                 "image_ratio": "adapt",
@@ -708,7 +704,6 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/Capture_d_ecran_2026-02-13_a_20.39.09.png",
                 "enable_animation": false,
                 "link": "",
                 "image_ratio": "adapt",
@@ -999,7 +994,7 @@
                     "text_yMUGpE": {
                       "type": "text",
                       "settings": {
-                        "text": "<ul><li><strong>Anti-drug protective</strong> drink cover*</li><li><strong>Liquid-resistant,</strong> high-quality fabric </li><li><strong>Reusable, washable, </strong>durable</li><li>Straw hole</li><li><strong>Keychain loop</strong></li><li>Design in <strong>Montreal,</strong> Canada</li></ul><p><em>*This is a preventive product and does not provide complete protection.<br/>Always stay alert and never leave your drink unattended.</em></p>",
+                        "text": "<p>• Capuchon de <strong>protection anti-drogue</strong> pour boisson*<br/>• Tissu <strong>imperméable</strong>, durable et de<strong> haute qualité</strong><br/>• Réutilisable et lavable<br/>• Trou pour la paille<br/>• Mini-boite rigide conçue pour <strong>s’attacher à un porte-clés</strong><br/>• Design réalisé à Montréal (Canada)</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1029,7 +1024,7 @@
                 "accordion_row_WywLjr": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Materials",
+                    "heading": "Matériaux",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1078,7 +1073,7 @@
                     "text_TVxDzG": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Cap :</strong> 9 × 2 cm<br/><strong>Straw hole :</strong> 1 cm<br/><strong>Case :</strong> 6.7 × 3 × 1.3 cm</p>",
+                        "text": "<p><strong>Capuchon</strong> <strong>: </strong>9 × 2 cm<br/><strong>Trou pour la paille : </strong>1 cm<br/><strong>Mini boite</strong> <strong>: </strong>6.7 × 3 × 1.3 cm</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1108,7 +1103,7 @@
                 "accordion_row_HWb3wU": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Shipping & Returns",
+                    "heading": "Livraison & Retours",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1117,7 +1112,7 @@
                     "text_A3Hadj": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Returns & Refunds :</strong><br/>For safety reasons, we do not accept returns or refunds once the product has been opened, as this is a personal safety item.</p><p><strong>Worldwide Shipping :</strong><br/>Ships from Montreal, Quebec (Canada)<br/>Shipping costs are calculated at checkout based on the destination country</p><p><strong>Estimated Delivery Times :</strong></p><ul><li><strong>Canada:</strong> 5–7 business days</li><li><strong>USA:</strong> 7–10 business days</li><li><strong>Europe:</strong> 10–15 business days</li><li><strong>Other international destinations:</strong> 15–20 business days<br/></li></ul><p><em>Note : Delivery times are estimates and may vary depending on carriers and customs processing.</em></p>",
+                        "text": "<ul><li><strong>Aucun retour ni remboursement accepté :</strong> En raison de la nature de ce produit (prévention des drogues), nous ne pouvons pas accepter les retours après ouverture pour des raisons de sécurité</li><li><strong>Livraison dans le monde entier :</strong> Expédié depuis Montréal, Québec (Canada)</li><li><strong>Frais de livraison :</strong> Calculés lors du passage en caisse selon le pays de destination<br/></li></ul><p><strong>Délais de livraison estimés :</strong></p><ul><li><strong>Canada :</strong> 5 à 7 jours ouvrables</li><li><strong>USA :</strong> 7 à 10 jours ouvrables</li><li><strong>Europe :</strong> 10 à 15 jours ouvrables</li><li><strong>Autres destinations internationales :</strong> 15 à 20 jours ouvrables<br/></li></ul><p><em><strong>Note : Les délais de livraison sont indicatifs et peuvent varier en fonction des transporteurs et des douanes.</strong></em></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1180,7 +1175,7 @@
         "text_wgeC4j": {
           "type": "text",
           "settings": {
-            "text": "<p>seal your drink. secure your night.</p>",
+            "text": "<p>protège ton verre. profite de ta soirée.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
