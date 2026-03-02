@@ -458,6 +458,8 @@
           "type": "comparison-slider",
           "name": "t:names.comparison_slider",
           "settings": {
+            "before_image": "shopify://shop_images/Animation_1_fr_fond_noir_1.jpg",
+            "after_image": "shopify://shop_images/Animation_FR_2.jpg",
             "slider_style": "horizontal",
             "show_text": false,
             "before_text": "",
@@ -468,7 +470,7 @@
             "text_background": false,
             "text_background_color": "#ffffff",
             "text_corner_radius": 0,
-            "image_ratio": "landscape",
+            "image_ratio": "adapt",
             "width": "custom",
             "custom_width": 65,
             "width_mobile": "fill",
@@ -918,7 +920,7 @@
               "name": "t:names.product_variant_picker",
               "settings": {
                 "variant_style": "buttons",
-                "show_swatches": true,
+                "show_swatches": false,
                 "alignment": "left",
                 "padding-block-start": 0,
                 "padding-block-end": 8,
@@ -1158,7 +1160,7 @@
       },
       "name": "t:names.featured_product_information",
       "settings": {
-        "product": "anti-spiking-drink-cover",
+        "product": "test",
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
         "equal_columns": true,
