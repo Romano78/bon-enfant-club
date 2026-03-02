@@ -262,7 +262,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "shop",
+            "label": "boutique",
             "link": "shopify://products/anti-spiking-drink-cover",
             "open_in_new_tab": false,
             "style_class": "split",
